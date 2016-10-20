@@ -15,7 +15,7 @@ RUN pip install -r requirements.txt
 
 COPY . /service
 
-EXPOSE 5000
+EXPOSE 8081
 
 ENTRYPOINT [ "python" ]
 
