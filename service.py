@@ -5,3 +5,6 @@ app = Flask(__name__)
 def show_user_profile(username):
     # show the user profile for that user
     return 'User %s' % username
+
+if __name__ == '__main__':
+    app.run()
