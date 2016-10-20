@@ -15,6 +15,8 @@ RUN pip install -r requirements.txt
 
 COPY . /service
 
+EXPOSE 5000
+
 ENTRYPOINT [ "python" ]
 
 CMD [ "service.py" ]
